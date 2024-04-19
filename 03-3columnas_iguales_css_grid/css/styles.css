@@ -39,3 +39,20 @@ h1 {
 }
 
 /** CODIGO AQUI **/
+
+
+.texto {
+    text-align: center;
+}
+
+
+@media (min-width: 768px) {
+
+
+    .tres-columnas {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2rem;
+    }
+
+}
